@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Melawan Penjajah</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="images/garuda.png"
+            type="image/x-icon"
+        />
+    </head>
+
+    <body>
+        <h1 class="banner">3</h1>
+        <div class="instruction">
+            <h1>Instruksi Melawan Penjajah</h1>
+            <ol type="1">
+                <li>Masukkan Nama dan tekan Play</li>
+                <li>Lempar bambu runcing dengan tombol D F J K</li>
+                <li>Capai nilai tertinggi</li>
+                <li>Selamat bersenang-senang</li>
+            </ol>
+            <input type="text" class="username" placeholder="Nama" />
+            <button class="confirm-instruction">Submit</button>
+        </div>
+        <div class="pause">
+            <h1>Game Terjeda</h1>
+            <button class="continue">Lanjutkan</button>
+            <button class="restart">Mulai Ulang</button>
+        </div>
+        <div class="game-over">
+            <h1>Game Over</h1>
+            <div class="time-section">
+                <p>Waktu : <span class="timer-end">--:--</span></p>
+            </div>
+            <div class="score-section">
+                <p>Score : <span class="score-end">0</span></p>
+            </div>
+            <div class="player-section">
+                <p>Pemain : <span class="player-name-end">-</span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="dashboard">
+                <marquee>
+                    <h3>Melawan Penjajah</h3>
+                </marquee>
+                <div class="time-section">
+                    <p>Waktu : <span class="timer">00:00</span></p>
+                </div>
+                <div class="score-section">
+                    <p>Score : <span class="score">0</span></p>
+                </div>
+                <div class="fail-section">
+                    <p>Fail : <span class="fail">0</span></p>
+                </div>
+                <div class="player-section">
+                    <p>Pemain : <span class="player-name">-</span></p>
+                </div>
+                <div class="footer">
+                    <button
+                        class="btn btn-restart"
+                        onclick="document.location.href = document.location.href"
+                    >
+                        Mulai ulang
+                    </button>
+                </div>
+                <div class="image-footer"></div>
+                <p>Ayo Serang Penjajah !!</p>
+            </div>
+            <div class="lines">
+                <div class="line line-1">
+                    <div class="border"></div>
+                    <div class="shooter shooter-d"></div>
+                </div>
+                <div class="line line-2">
+                    <div class="border"></div>
+                    <div class="shooter shooter-f"></div>
+                </div>
+                <div class="line line-3">
+                    <div class="border"></div>
+                    <div class="shooter shooter-j"></div>
+                </div>
+                <div class="line line-4">
+                    <div class="border"></div>
+                    <div class="shooter shooter-k"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
